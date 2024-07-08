@@ -10,7 +10,7 @@ body {
 .penguin-container {
     display: flex;
     justify-content: space-around;
-    width: 80%;
+    width: 40%;
 }
 
 .penguin {
@@ -35,14 +35,14 @@ body {
     left: 50%;
     transform: translateX(-50%);
     width: 60%;
-    height: 70%;
+    height: 40%;
     background: white;
     border-radius: 50%;
 }
 
 .penguin-eye {
     position: absolute;
-    top: 10%;
+    top: 15%;
     width: 20%;
     height: 20%;
     background: white;
@@ -69,7 +69,7 @@ body {
 
 .penguin-beak {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translateX(-50%);
     width: 20%;
@@ -105,11 +105,11 @@ body {
 }
 
 .penguin-wing-left {
-    left: -10%;
+    left: -15%;
     transform: rotate(-30deg);
 }
 
 .penguin-wing-right {
-    right: -10%;
+    right: -15%;
     transform: rotate(30deg);
 }
